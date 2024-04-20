@@ -1,25 +1,37 @@
 # Desenvolvimento Web IOS
 
-### Pollyana Costa
+# Retro Revival Tech
 
-Olá, tudo bem?! Me chamo Pollyana, tenho 21 anos, comecei a estudar Desenvolvimento Web com intuito de entrar para a área de tecnologia. 
+Bem-vindo ao Retro Revival Tech! Este é um projeto em dupla desenvolvido como parte de um curso, focado em trazer de volta o charme dos eletrônicos retrô combinados com a tecnologia moderna.
 
-### Meu primeiro código
+## Sobre o Projeto
 
-```
-<!DOCTYPE html>
-<html Lang="pt-br"> 
-<head>
-<meta charset="UTF-8">
-<title> IOS WEB</title>
+O Retro Revival Tech é um site estático criado apenas com HTML e CSS, dedicado a apaixonados por eletrônicos retrô. Explore nossa coleção de produtos e mergulhe na nostalgia dos clássicos da tecnologia.
 
-    </head>
-<body>
-    <h1>Pollyana Costa</h1> 
-    <h2>Desenvolvimento Web IOS</h2>
-    <h3>Não estou entendendo nada</h3>
-   
-   </body>
-   </html>
+## Recursos Principais
 
-   ```
+- Catálogo de Produtos: Descubra uma variedade de eletrônicos retrô disponíveis para compra.
+- Artigos e Histórias: Leia sobre curiosidades, histórias e análises sobre os produtos e a cultura retrô.
+
+## Como Executar Localmente
+
+Se você deseja visualizar o Retro Revival Tech em sua máquina localmente, siga estas etapas simples:
+
+1. Clone este repositório:
+
+'git clone https://github.com/Pollyana-Costa/Projeto_dupla_06.git'
+
+2. Navegue até o diretório do projeto:
+
+cd Projeto_dupla_06
+
+3. Abra o arquivo `index.html` em seu navegador da web preferido.
+
+## Autores
+
+- [André Luis](https://github.com/andreluiswebdev)
+- [Pollyana Costa](https://github.com/Pollyana-Costa)
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE).
