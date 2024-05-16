@@ -1,1 +1,233 @@
-Esse aqui é um exemplo apenas para subir por GitHub
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bd36a0;
+    color: #ddeee7;
+}
+
+a {
+    color: rgb(231, 199, 15);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00ffbf;
+}
+
+/* Header Estilizado */
+.cyberpunk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
+    border-bottom: 2px solid #c40e96;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.logo {
+    color: rgb(231, 199, 15);
+    text-shadow: 0 0 10px #cd1dd3;
+    text-align: center;
+}
+.logo h1 {
+    font-size: 2em;
+    color: rgb(231, 199, 15);
+    text-shadow: 0 0 10px #e015ae;
+}
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu li {
+    margin-left: 20px;
+}
+.nav-menu a {
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background: #1a1a1a;
+    border: 1px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bd36a0;
+    color: #ddeee7;
+}
+a {
+    color: rgb(231, 199, 15);
+    text-decoration: none;
+}
+a:hover {
+    color: #00ffbf;
+}
+
+.cyberpunk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
+    border-bottom: 2px solid #c40e96;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.logo {
+    color: rgb(231, 199, 15);
+    text-shadow: 0 0 10px #cd1dd3;
+    text-align: center;
+}
+.logo h1 {
+    font-size: 2em;
+    color: rgb(231, 199, 15);
+    text-shadow: 0 0 10px #e015ae;
+}
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu li {
+    margin-left: 20px;
+}
+.nav-menu a {
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+main {
+    padding: 20px;
+}
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background: #1a1a1a;
+    border: 1px solid rgb(231, 199, 15);
+    box-shadow: 0 0 10px rgb(231, 199, 15);
+}
+
+section h2 {
+    color: rgb(231, 199, 15);
+    font-family: "Jersey 10", sans-serif;
+    text-shadow: 0 0 10px #ff0099;
+}
+
+/* Estilos das Imagens e Itens */
+.imagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagens img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.itens {
+    position: relative;
+    width: 30%;
+    margin: 10px 0;
+    background: #0d0d0d;
+    padding: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.itens:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ffbf;
+}
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(231, 199, 15);
+}
+.itens p {
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.itens:hover p {
+    display: block;
+    opacity: 1;
+}
+
+.cyberpunk-footer {
+    padding: 10px;
+    background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
+    border-top: 2px solid #00ff99;
+    margin: 0;
+    text-align: center;
+    color: rgb(231, 199, 15);
+}
+
+.cyberpunk-footer h3 {
+    color: rgb(231, 199, 15);
+    font-family: "Jersey 10", sans-serif;
+}
+
+.cyberpunk-footer a {
+    color: rgb(231, 199, 15);
+    text-decoration: none;
+}
+
+.cyberpunk-footer a:hover {
+    color: #00ffbf;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+td {
+    padding: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #00ff99;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-menu li {
+        margin: 10px 0;
+    }
+    .itens {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .itens {
+        width: 100%;
+    }
+}
+
