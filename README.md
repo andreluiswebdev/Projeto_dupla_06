@@ -4,6 +4,8 @@
 
 Bem-vindo ao Retro Revival Tech! Este é um projeto em dupla desenvolvido como parte de um curso, focado em trazer de volta o charme dos eletrônicos retrô combinados com a tecnologia moderna.
 
+Acesse: https://main--retrorevivaltech.netlify.app/
+
 ## Sobre o Projeto
 
 O Retro Revival Tech é um site estático criado apenas com HTML e CSS, dedicado a apaixonados por eletrônicos retrô. Explore nossa coleção de produtos e mergulhe na nostalgia dos clássicos da tecnologia.
