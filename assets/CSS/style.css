@@ -78,6 +78,7 @@ section p{
         font-size: 20px;
 }
 /* estilizando as Imagens e Itens */
+
 .imagens {
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +88,7 @@ section p{
     width: 100%;
     height: auto;
     display: block;
-}
+} 
 .itens {
     position: relative;
     width: 30%;
