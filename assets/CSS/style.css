@@ -1,25 +1,9 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #bd36a0;
-    color: #ddeee7;
-}
-
-a {
-    color: rgb(231, 199, 15);
-    text-decoration: none;
-}
-
-a:hover {
-    color: #00ffbf;
-}
-
-/* Header Estilizado */
+/*estilizando header*/
 .cyberpunk-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     padding: 20px;
     background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
     border-bottom: 2px solid #c40e96;
@@ -28,14 +12,22 @@ a:hover {
     font-size: 20px;
 }
 .logo {
+    flex: 1;
     color: rgb(231, 199, 15);
     text-shadow: 0 0 10px #cd1dd3;
     text-align: center;
 }
 .logo h1 {
-    font-size: 2em;
+    margin: 0;
+    font-size: 80px;
     color: rgb(231, 199, 15);
     text-shadow: 0 0 10px #e015ae;
+}
+
+.nav-menu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 .nav-menu ul {
     list-style: none;
@@ -47,88 +39,45 @@ a:hover {
     margin-left: 20px;
 }
 .nav-menu a {
-    font-size: 1.2em;
+    font-size: 30px;
     transition: color 0.3s ease;
+    color: rgb(231, 199, 15);
+    text-decoration: none;
 }
-
+a:hover {
+    color: #00ffbf;
+}
+/*estilizando a body*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #bd36a0;
+    color: #ddeee7;
+}
+a {
+    color: rgb(231, 199, 15);
+    text-decoration: none;
+}
 main {
     padding: 20px;
 }
-
 section {
     padding: 40px 20px;
     margin: 20px 0;
     background: #1a1a1a;
     border: 1px;
 }
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #bd36a0;
-    color: #ddeee7;
-}
-a {
-    color: rgb(231, 199, 15);
-    text-decoration: none;
-}
-a:hover {
-    color: #00ffbf;
-}
-
-.cyberpunk-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
-    border-bottom: 2px solid #c40e96;
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-.logo {
-    color: rgb(231, 199, 15);
-    text-shadow: 0 0 10px #cd1dd3;
-    text-align: center;
-}
-.logo h1 {
-    font-size: 2em;
-    color: rgb(231, 199, 15);
-    text-shadow: 0 0 10px #e015ae;
-}
-.nav-menu ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-.nav-menu li {
-    margin-left: 20px;
-}
-.nav-menu a {
-    font-size: 1.2em;
-    transition: color 0.3s ease;
-}
-
-main {
-    padding: 20px;
-}
-section {
-    padding: 40px 20px;
-    margin: 20px 0;
-    background: #1a1a1a;
-    border: 1px solid rgb(231, 199, 15);
-    box-shadow: 0 0 10px rgb(231, 199, 15);
-}
-
 section h2 {
     color: rgb(231, 199, 15);
     font-family: "Jersey 10", sans-serif;
     text-shadow: 0 0 10px #ff0099;
 }
 
-/* Estilos das Imagens e Itens */
+section p{
+        font-size: 20px;
+}
+/* estilizando as Imagens e Itens */
 .imagens {
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +121,20 @@ figcaption {
     display: block;
     opacity: 1;
 }
-
+.pedido{
+    padding: 40px 20px;
+    margin: 20px 0;
+    background: #1a1a1a;
+    
+}
+.pedido a{
+    border-radius: 1px solid black;
+    font-size: 30px ;
+    color: rgb(231, 199, 15);
+    font-family: "Jersey 10", sans-serif;
+    text-shadow: 0 0 10px #ff0099;
+}
+/*estilizando a footer*/
 .cyberpunk-footer {
     padding: 10px;
     background: linear-gradient(45deg, #0d0d0d, #1a1a1a);
@@ -212,7 +174,10 @@ hr {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        justify-content: center;
+    }
     .nav-menu ul {
         flex-direction: column;
         align-items: center;
@@ -220,14 +185,33 @@ hr {
     .nav-menu li {
         margin: 10px 0;
     }
-    .itens {
-        width: 45%;
+    .pedido a {
+        font-size: 20px;
     }
-}
-
-@media (max-width: 480px) {
     .itens {
         width: 100%;
     }
-}
 
+    .cyberpunk-footer table {
+        display: block;
+        margin: 20px auto;
+    }
+    .cyberpunk-footer td {
+        text-align: center;
+    }
+    .cyberpunk-footer h3 {
+        margin-top: 20px;
+    }
+    .cyberpunk-footer ul {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .cyberpunk-footer ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    .cyberpunk-footer p {
+        font-size: 14px;
+    }
+}
